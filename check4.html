@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Olya Panasyuzhenkova</title><meta charset="utf-8">
+ </head>
+ <body>
+ 
+    <h4>214083</h4>
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+    <input type="number" id="n3">
+   
+    <p><input type="number" id="n4">
+    <input type="number" id="n5">
+    <input type="number" id="n6"></p>
+      
+   <p>x = <input type="number" value = "" id="result1"></p>
+   <p>y = <input type="number" value = "" id="result2"></p>
+   
+   
+    <button id="bt" onclick="
+                                 
+      // document.querySelector('h1').textContent = document.title;
+     
+      /* извлечение данных */  
+      const n1 = Number(document.querySelector('#n1').value);
+      const n2 = Number(document.querySelector('#n2').value); 
+      const n3 = Number(document.querySelector('#n3').value);
+      const n4 = Number(document.querySelector('#n4').value); 
+      const n5 = Number(document.querySelector('#n5').value);
+      const n6 = Number(document.querySelector('#n6').value); 
+
+      /* вычисления  */                       
+      const d = n1 * n5 - n2 * n4;
+      const result1 = (n3 * n5 - n6 * n2)/d
+      const result2 = (n1 * n6 - n3 * n4)/d
+                             
+      /* запись результата */ 
+      document.querySelector('#result1').value = result1;
+      document.querySelector('#result2').value = result2;
+                             
+    ">Выполнить задание</button>
+
+ </body>
+</html>

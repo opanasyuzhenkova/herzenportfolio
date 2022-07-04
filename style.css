@@ -1,0 +1,30 @@
+.menu-label{
+    color:#ffffff;
+    
+  }
+
+
+.hero-body{
+    background-color: rgb(53, 107, 74);
+    background-position: center;
+}
+.buttons{
+    display: flex;	
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: fit-content;
+}
+
+.menu-list a:hover {
+    background-color: rgb(77, 123, 223);
+    color: #363636;
+  }
+  
+  .menu-list a.is-active {
+    background-color: #485fc7;
+    color: #fff;
+  }
+
